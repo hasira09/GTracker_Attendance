@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class = "container">
+        <h1 class = "brand"><span>G_Tracker</span> Attendance Form</h1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                <img src="gtracker.png" alt="G-Tracker Logo" width="150" height="170">
+                <ul>
+                    <li></i>Team G_Pro</li>
+                    <li>(+94)783053199</li>
+                    <li>gtracker.info5@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Fill the Form</h3>
+                <!-- @TODO - validation -->
+                <form action="" id="contactForm">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label>Index Number</label>
+                        <input type="text" name="index" id="index">
+                    </p>
+                    <p class="full">
+                        <button type="submit">Submit</button>
+                    </p>
+                    <div class="alert">Attendance Recorded</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
